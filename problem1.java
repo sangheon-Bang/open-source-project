@@ -1,33 +1,26 @@
-package task1;
+package TASK2;
+
 import java.util.Scanner;
+import java.util.InputMismatchException;
 
 public class problem1 {
-	
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		
-		System.out.println("첫번째 원의 중심과 반지름 입력>>");
-		double xPos1 = scanner.nextDouble();
-		double yPos1 = scanner.nextDouble();
-		double radius1 = scanner.nextDouble();
-		
-		System.out.println("두번째 원의 중심과 반지름 입력>>");
-		double xPos2 = scanner.nextDouble();
-		double yPos2 = scanner.nextDouble();
-		double radius2 = scanner.nextDouble();
-		
-		double distance = Math.sqrt((xPos1-xPos2)*(xPos1-xPos2)
-				+(yPos1-yPos2)*(yPos1-yPos2));
-		double sumOfRadius = radius1 + radius2;
-		
-		if(distance > sumOfRadius)
-			System.out.println("두 원은 서로 겹치지 않는다.");
-		else
-			System.out.println("두 원은 서로 겹친다.");
+		int n,m;
+		while(true) {
+			System.out.print("곱하고자 하는 두 수 입력>>");
+			try {
+				n=scanner.nextInt();
+				m=scanner.nextInt();
+				break;
+			}
+			catch(InputMismatchException e){
+				System.out.println("실수는 입력하면 안됩니다.");
+				scanner.nextLine();
+			}
+		}
+		System.out.println(n+"x"+m+"="+n*m);
 		
 		scanner.close();
-		
-		
 	}
-
 }
