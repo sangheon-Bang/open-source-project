@@ -3,19 +3,19 @@ package TASK2;
 import java.util.Scanner;
 import java.util.InputMismatchException;
 
-public class problem1 {
+public class problem2-1 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		int n,m;
 		while(true) {
-			System.out.print("°öÇÏ°íÀÚ ÇÏ´Â µÎ ¼ö ÀÔ·Â>>");
+			System.out.print("ê³±í•˜ê³ ì í•˜ëŠ” ë‘ ìˆ˜ ì…ë ¥>>");
 			try {
 				n=scanner.nextInt();
 				m=scanner.nextInt();
 				break;
 			}
 			catch(InputMismatchException e){
-				System.out.println("½Ç¼ö´Â ÀÔ·ÂÇÏ¸é ¾ÈµË´Ï´Ù.");
+				System.out.println("ì‹¤ìˆ˜ëŠ” ì…ë ¥í•˜ë©´ ì•ˆë©ë‹ˆë‹¤.");
 				scanner.nextLine();
 			}
 		}
