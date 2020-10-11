@@ -4,3 +4,4 @@
 ![2주차 퀴즈1](https://user-images.githubusercontent.com/65529084/93694855-b5d55f00-fb4b-11ea-9d8c-75cc94f956cc.png)
 ![2주차 퀴즈2](https://user-images.githubusercontent.com/65529084/93694862-ce457980-fb4b-11ea-80eb-522198161c64.png)
 ![4장 퀴즈](https://user-images.githubusercontent.com/65529084/94365805-bbfcaa00-010e-11eb-94e4-2a2d6586bd5d.png)
+![6장 퀴즈](https://user-images.githubusercontent.com/65529084/95670494-d468cc00-0bc6-11eb-8e99-70fbf43fedce.png)
